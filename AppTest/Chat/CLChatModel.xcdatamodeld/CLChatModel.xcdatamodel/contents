@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="CLChatMessage" representedClassName="CLChatMessage" syncable="YES">
+        <attribute name="customIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="msgIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgOwnerType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="msgType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="otherStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readState" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sendState" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userAvatarURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="voicePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="voiceSeconds" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="voiceUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webImageHeight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="webImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webImageWidth" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CLChatMessage" positionX="-63" positionY="-18" width="128" height="330"/>
+    </elements>
+</model>
